@@ -1,0 +1,82 @@
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 0.1, 'fit_intercept': True}
+
+Validación cruzada:
+MSE promedio (CV): 0.1433
+RMSE promedio (CV): 0.3786
+Desviación estándar (MSE): 0.0156
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_0.1_fit_intercept_True.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_0.1_fit_intercept_True.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 0.1, 'fit_intercept': False}
+
+Validación cruzada:
+MSE promedio (CV): 0.1433
+RMSE promedio (CV): 0.3786
+Desviación estándar (MSE): 0.0156
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_0.1_fit_intercept_False.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_0.1_fit_intercept_False.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 1, 'fit_intercept': True}
+
+Validación cruzada:
+MSE promedio (CV): 0.1433
+RMSE promedio (CV): 0.3786
+Desviación estándar (MSE): 0.0156
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_1_fit_intercept_True.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_1_fit_intercept_True.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 1, 'fit_intercept': False}
+
+Validación cruzada:
+MSE promedio (CV): 0.1433
+RMSE promedio (CV): 0.3786
+Desviación estándar (MSE): 0.0156
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_1_fit_intercept_False.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_1_fit_intercept_False.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 10, 'fit_intercept': True}
+
+Validación cruzada:
+MSE promedio (CV): 0.1433
+RMSE promedio (CV): 0.3786
+Desviación estándar (MSE): 0.0156
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_10_fit_intercept_True.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_10_fit_intercept_True.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 10, 'fit_intercept': False}
+
+Validación cruzada:
+MSE promedio (CV): 0.1433
+RMSE promedio (CV): 0.3786
+Desviación estándar (MSE): 0.0156
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_10_fit_intercept_False.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_10_fit_intercept_False.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 100, 'fit_intercept': True}
+
+Validación cruzada:
+MSE promedio (CV): 0.1434
+RMSE promedio (CV): 0.3787
+Desviación estándar (MSE): 0.0155
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_100_fit_intercept_True.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_100_fit_intercept_True.csv
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Mejores parámetros: {'alpha': 100, 'fit_intercept': False}
+
+Validación cruzada:
+MSE promedio (CV): 0.1434
+RMSE promedio (CV): 0.3787
+Desviación estándar (MSE): 0.0155
+Predicciones guardadas en predictions/RidgeRegression/predicciones_alpha_100_fit_intercept_False.csv
+Métricas guardadas en metrics/RidgeRegression/metrics_alpha_100_fit_intercept_False.csv
+
+Mejor modelo:
+- Alpha: 0.1
+- Fit Intercept: True
+- MSE promedio (CV): 0.1433
+- Desviación estándar del MSE (CV): 0.0156
+- MAE (Conjunto de prueba): 0.2538
+- R² (Conjunto de prueba): 0.3994
+- RMSE (Conjunto de prueba): 0.3786
+Métricas del mejor modelo guardadas en metrics/MejoresModelos/RidgeRegression_mejor_modelo_metrics.csv

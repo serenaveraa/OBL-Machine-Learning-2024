@@ -1,0 +1,17 @@
+{"time":"2024-11-28T15:58:31.32776-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T15:58:31.327812-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_155828-84301pyg/logs/debug-core.log"}
+{"time":"2024-11-28T15:58:31.438536-03:00","level":"INFO","msg":"created new stream","id":"84301pyg"}
+{"time":"2024-11-28T15:58:31.438597-03:00","level":"INFO","msg":"stream: started","id":"84301pyg"}
+{"time":"2024-11-28T15:58:31.438602-03:00","level":"INFO","msg":"handler: started","stream_id":"84301pyg"}
+{"time":"2024-11-28T15:58:31.438603-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"84301pyg"}
+{"time":"2024-11-28T15:58:31.438648-03:00","level":"INFO","msg":"sender: started","stream_id":"84301pyg"}
+{"time":"2024-11-28T15:58:31.796272-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T15:59:33.532416-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T15:59:33.534084-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T15:59:34.534746-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-84301pyg-MejorModelo","runtime_seconds":1.514381083},{"desc":"uploading config.yaml","runtime_seconds":0.319183625,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.319162542,"progress":"4.4KB/4.4KB"}],"total_operations":3}}
+{"time":"2024-11-28T15:59:35.972805-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T15:59:37.302818-03:00","level":"INFO","msg":"stream: closing","id":"84301pyg"}
+{"time":"2024-11-28T15:59:37.302853-03:00","level":"INFO","msg":"handler: closed","stream_id":"84301pyg"}
+{"time":"2024-11-28T15:59:37.302865-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"84301pyg"}
+{"time":"2024-11-28T15:59:37.302872-03:00","level":"INFO","msg":"sender: closed","stream_id":"84301pyg"}
+{"time":"2024-11-28T15:59:37.303092-03:00","level":"INFO","msg":"stream: closed","id":"84301pyg"}

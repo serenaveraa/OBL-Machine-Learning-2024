@@ -1,0 +1,64 @@
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+Mejores parámetros: {'estimator__max_depth': 10, 'learning_rate': 0.1, 'loss': 'linear', 'n_estimators': 50}
+
+Validación cruzada:
+MSE promedio (CV): 0.0785
+RMSE promedio (CV): 0.2802
+Desviación estándar (MSE): 0.0086
+Predicciones guardadas en predictions/AdaBoost/predicciones_n_estimators_50_learning_rate_0.1.csv
+Métricas guardadas en metrics/AdaBoost/metrics_n_estimators_50_learning_rate_0.1.csv
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+Mejores parámetros: {'estimator__max_depth': 10, 'learning_rate': 0.2, 'loss': 'linear', 'n_estimators': 50}
+
+Validación cruzada:
+MSE promedio (CV): 0.0764
+RMSE promedio (CV): 0.2764
+Desviación estándar (MSE): 0.0075
+Predicciones guardadas en predictions/AdaBoost/predicciones_n_estimators_50_learning_rate_0.2.csv
+Métricas guardadas en metrics/AdaBoost/metrics_n_estimators_50_learning_rate_0.2.csv
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+Mejores parámetros: {'estimator__max_depth': 10, 'learning_rate': 0.5, 'loss': 'exponential', 'n_estimators': 50}
+
+Validación cruzada:
+MSE promedio (CV): 0.0787
+RMSE promedio (CV): 0.2806
+Desviación estándar (MSE): 0.0068
+Predicciones guardadas en predictions/AdaBoost/predicciones_n_estimators_50_learning_rate_0.5.csv
+Métricas guardadas en metrics/AdaBoost/metrics_n_estimators_50_learning_rate_0.5.csv
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+Mejores parámetros: {'estimator__max_depth': 10, 'learning_rate': 0.1, 'loss': 'exponential', 'n_estimators': 100}
+
+Validación cruzada:
+MSE promedio (CV): 0.0776
+RMSE promedio (CV): 0.2786
+Desviación estándar (MSE): 0.0075
+Predicciones guardadas en predictions/AdaBoost/predicciones_n_estimators_100_learning_rate_0.1.csv
+Métricas guardadas en metrics/AdaBoost/metrics_n_estimators_100_learning_rate_0.1.csv
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+Mejores parámetros: {'estimator__max_depth': 10, 'learning_rate': 0.2, 'loss': 'exponential', 'n_estimators': 100}
+
+Validación cruzada:
+MSE promedio (CV): 0.0781
+RMSE promedio (CV): 0.2794
+Desviación estándar (MSE): 0.0075
+Predicciones guardadas en predictions/AdaBoost/predicciones_n_estimators_100_learning_rate_0.2.csv
+Métricas guardadas en metrics/AdaBoost/metrics_n_estimators_100_learning_rate_0.2.csv
+Fitting 5 folds for each of 9 candidates, totalling 45 fits
+Mejores parámetros: {'estimator__max_depth': 10, 'learning_rate': 0.5, 'loss': 'exponential', 'n_estimators': 100}
+
+Validación cruzada:
+MSE promedio (CV): 0.0789
+RMSE promedio (CV): 0.2810
+Desviación estándar (MSE): 0.0075
+Predicciones guardadas en predictions/AdaBoost/predicciones_n_estimators_100_learning_rate_0.5.csv
+Métricas guardadas en metrics/AdaBoost/metrics_n_estimators_100_learning_rate_0.5.csv
+
+Mejor modelo:
+- Número de estimadores (n_estimators): 50
+- Tasa de aprendizaje (learning_rate): 0.2
+- MSE promedio (CV): 0.0764
+- Desviación estándar del MSE (CV): 0.0075
+- MAE (Conjunto de prueba): 0.0924
+- R² (Conjunto de prueba): 0.9373
+- RMSE (Conjunto de prueba): 0.2764
+Métricas del mejor modelo guardadas en metrics/MejoresModelos/AdaBoost_mejor_modelo_metrics.csv

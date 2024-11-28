@@ -1,0 +1,154 @@
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1528
+RMSE promedio (CV): 0.3909
+Desviación estándar (MSE): 0.0258
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_3_criterion_squared_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_3_criterion_squared_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': 3, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1528
+RMSE promedio (CV): 0.3909
+Desviación estándar (MSE): 0.0258
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_3_criterion_squared_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_3_criterion_squared_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1404
+RMSE promedio (CV): 0.3747
+Desviación estándar (MSE): 0.0216
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_3_criterion_absolute_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_3_criterion_absolute_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': 3, 'max_features': 'log2', 'min_samples_leaf': 1, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1404
+RMSE promedio (CV): 0.3747
+Desviación estándar (MSE): 0.0216
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_3_criterion_absolute_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_3_criterion_absolute_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1290
+RMSE promedio (CV): 0.3592
+Desviación estándar (MSE): 0.0172
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_5_criterion_squared_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_5_criterion_squared_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1290
+RMSE promedio (CV): 0.3592
+Desviación estándar (MSE): 0.0172
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_5_criterion_squared_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_5_criterion_squared_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1263
+RMSE promedio (CV): 0.3554
+Desviación estándar (MSE): 0.0120
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_5_criterion_absolute_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_5_criterion_absolute_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1263
+RMSE promedio (CV): 0.3554
+Desviación estándar (MSE): 0.0120
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_5_criterion_absolute_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_5_criterion_absolute_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1128
+RMSE promedio (CV): 0.3359
+Desviación estándar (MSE): 0.0097
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_10_criterion_squared_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_10_criterion_squared_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1128
+RMSE promedio (CV): 0.3359
+Desviación estándar (MSE): 0.0097
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_10_criterion_squared_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_10_criterion_squared_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1139
+RMSE promedio (CV): 0.3375
+Desviación estándar (MSE): 0.0146
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_10_criterion_absolute_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_10_criterion_absolute_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1139
+RMSE promedio (CV): 0.3375
+Desviación estándar (MSE): 0.0146
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_10_criterion_absolute_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_10_criterion_absolute_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1044
+RMSE promedio (CV): 0.3231
+Desviación estándar (MSE): 0.0184
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_None_criterion_squared_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_None_criterion_squared_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'squared_error', 'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.1044
+RMSE promedio (CV): 0.3231
+Desviación estándar (MSE): 0.0184
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_None_criterion_squared_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_None_criterion_squared_error_max_features_log2.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.0999
+RMSE promedio (CV): 0.3161
+Desviación estándar (MSE): 0.0147
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_None_criterion_absolute_error_max_features_sqrt.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_None_criterion_absolute_error_max_features_sqrt.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'criterion': 'absolute_error', 'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 10, 'splitter': 'best'}
+
+Validación cruzada:
+MSE promedio (CV): 0.0999
+RMSE promedio (CV): 0.3161
+Desviación estándar (MSE): 0.0147
+Predicciones guardadas en predictions/ArbolesDeDecision/predicciones_max_depth_None_criterion_absolute_error_max_features_log2.csv
+Métricas guardadas en metrics/ArbolesDeDecision/metrics_max_depth_None_criterion_absolute_error_max_features_log2.csv
+
+Mejor modelo:
+- Profundidad máxima (max_depth): None
+- Criterio de división (criterion): absolute_error
+- Máximas características (max_features): sqrt
+- MSE promedio (CV): 0.0999
+- Desviación estándar del MSE (CV): 0.0147
+- MAE (Conjunto de prueba): 0.1537
+- R² (Conjunto de prueba): 0.6708
+- RMSE (Conjunto de prueba): 0.3161

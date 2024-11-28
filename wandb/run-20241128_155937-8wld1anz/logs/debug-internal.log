@@ -1,0 +1,17 @@
+{"time":"2024-11-28T15:59:37.360118-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T15:59:37.360139-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_155937-8wld1anz/logs/debug-core.log"}
+{"time":"2024-11-28T15:59:37.475-03:00","level":"INFO","msg":"created new stream","id":"8wld1anz"}
+{"time":"2024-11-28T15:59:37.475032-03:00","level":"INFO","msg":"stream: started","id":"8wld1anz"}
+{"time":"2024-11-28T15:59:37.47504-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"8wld1anz"}
+{"time":"2024-11-28T15:59:37.47506-03:00","level":"INFO","msg":"handler: started","stream_id":"8wld1anz"}
+{"time":"2024-11-28T15:59:37.475044-03:00","level":"INFO","msg":"sender: started","stream_id":"8wld1anz"}
+{"time":"2024-11-28T15:59:37.863905-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T16:00:44.752604-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T16:00:44.753046-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T16:00:45.758278-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8wld1anz-MejorModelo","runtime_seconds":1.099044208,"subtasks":[{"desc":"Mejor Modelo.table.json","runtime_seconds":0.158247584,"progress":"894B/894B"}]},{"desc":"uploading config.yaml","runtime_seconds":0.291038167,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.291008625,"progress":"2.2KB/2.2KB"}],"total_operations":3}}
+{"time":"2024-11-28T16:00:47.659467-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T16:00:48.995726-03:00","level":"INFO","msg":"stream: closing","id":"8wld1anz"}
+{"time":"2024-11-28T16:00:48.995772-03:00","level":"INFO","msg":"handler: closed","stream_id":"8wld1anz"}
+{"time":"2024-11-28T16:00:48.995792-03:00","level":"INFO","msg":"sender: closed","stream_id":"8wld1anz"}
+{"time":"2024-11-28T16:00:48.995792-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8wld1anz"}
+{"time":"2024-11-28T16:00:48.996078-03:00","level":"INFO","msg":"stream: closed","id":"8wld1anz"}

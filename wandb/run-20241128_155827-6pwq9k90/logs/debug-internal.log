@@ -1,0 +1,19 @@
+{"time":"2024-11-28T15:58:27.793523-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T15:58:27.79363-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_155827-6pwq9k90/logs/debug-core.log"}
+{"time":"2024-11-28T15:58:27.904638-03:00","level":"INFO","msg":"created new stream","id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:27.904685-03:00","level":"INFO","msg":"stream: started","id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:27.904702-03:00","level":"INFO","msg":"handler: started","stream_id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:27.904738-03:00","level":"INFO","msg":"sender: started","stream_id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:27.904753-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:28.269605-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T15:58:28.378139-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T15:58:28.388652-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T15:58:28.417049-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T15:58:28.417436-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T15:58:29.422343-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.789523375,"progress":"3.1KB/3.1KB"},{"desc":"saving job artifact","runtime_seconds":0.376332709},{"desc":"uploading wandb-summary.json","runtime_seconds":0.330008125,"progress":"24B/24B"},{"desc":"uploading output.log","runtime_seconds":0.120596666},{"desc":"uploading config.yaml","runtime_seconds":0.120586667,"progress":"569B/569B"}],"total_operations":5}}
+{"time":"2024-11-28T15:58:30.004174-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T15:58:31.323545-03:00","level":"INFO","msg":"stream: closing","id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:31.323665-03:00","level":"INFO","msg":"handler: closed","stream_id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:31.32369-03:00","level":"INFO","msg":"sender: closed","stream_id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:31.323678-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6pwq9k90"}
+{"time":"2024-11-28T15:58:31.323859-03:00","level":"INFO","msg":"stream: closed","id":"6pwq9k90"}

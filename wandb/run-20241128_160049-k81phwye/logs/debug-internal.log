@@ -1,0 +1,17 @@
+{"time":"2024-11-28T16:00:49.03277-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T16:00:49.032793-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_160049-k81phwye/logs/debug-core.log"}
+{"time":"2024-11-28T16:00:49.140014-03:00","level":"INFO","msg":"created new stream","id":"k81phwye"}
+{"time":"2024-11-28T16:00:49.14005-03:00","level":"INFO","msg":"stream: started","id":"k81phwye"}
+{"time":"2024-11-28T16:00:49.140057-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"k81phwye"}
+{"time":"2024-11-28T16:00:49.140086-03:00","level":"INFO","msg":"sender: started","stream_id":"k81phwye"}
+{"time":"2024-11-28T16:00:49.140064-03:00","level":"INFO","msg":"handler: started","stream_id":"k81phwye"}
+{"time":"2024-11-28T16:00:49.511896-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T16:02:20.579711-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T16:02:20.580341-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T16:02:21.583543-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-k81phwye-MejorModelo","runtime_seconds":1.019515792,"subtasks":[{"desc":"Mejor Modelo.table.json","runtime_seconds":0.08159225,"progress":"895B/895B"}]},{"desc":"uploading config.yaml","runtime_seconds":0.232949375,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.232926208,"progress":"3.1KB/3.1KB"}],"total_operations":3}}
+{"time":"2024-11-28T16:02:23.387763-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T16:02:24.846372-03:00","level":"INFO","msg":"stream: closing","id":"k81phwye"}
+{"time":"2024-11-28T16:02:24.846408-03:00","level":"INFO","msg":"handler: closed","stream_id":"k81phwye"}
+{"time":"2024-11-28T16:02:24.846427-03:00","level":"INFO","msg":"sender: closed","stream_id":"k81phwye"}
+{"time":"2024-11-28T16:02:24.846424-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"k81phwye"}
+{"time":"2024-11-28T16:02:24.84663-03:00","level":"INFO","msg":"stream: closed","id":"k81phwye"}

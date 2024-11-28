@@ -1,0 +1,17 @@
+{"time":"2024-11-28T16:03:01.486296-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T16:03:01.486329-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_160301-0q7p0b3l/logs/debug-core.log"}
+{"time":"2024-11-28T16:03:01.593635-03:00","level":"INFO","msg":"created new stream","id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:01.593673-03:00","level":"INFO","msg":"stream: started","id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:01.593673-03:00","level":"INFO","msg":"handler: started","stream_id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:01.593677-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:01.593722-03:00","level":"INFO","msg":"sender: started","stream_id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:01.945812-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T16:03:20.505494-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T16:03:20.506289-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T16:03:21.511264-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-0q7p0b3l-MejorModelo","runtime_seconds":1.022648542,"subtasks":[{"desc":"Mejor Modelo.table.json","runtime_seconds":0.100094958,"progress":"896B/896B"}]}],"total_operations":1}}
+{"time":"2024-11-28T16:03:23.322512-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T16:03:24.625471-03:00","level":"INFO","msg":"stream: closing","id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:24.62552-03:00","level":"INFO","msg":"handler: closed","stream_id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:24.625543-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:24.625659-03:00","level":"INFO","msg":"sender: closed","stream_id":"0q7p0b3l"}
+{"time":"2024-11-28T16:03:24.626066-03:00","level":"INFO","msg":"stream: closed","id":"0q7p0b3l"}

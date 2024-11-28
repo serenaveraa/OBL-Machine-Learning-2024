@@ -1,0 +1,64 @@
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Mejores parámetros: {'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (50,), 'learning_rate_init': 0.001, 'max_iter': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.1471
+RMSE promedio (CV): 0.3835
+Desviación estándar (MSE): 0.0216
+Predicciones guardadas en predictions/RedesNeuronales/predicciones_hidden_layer_sizes_(50,)_learning_rate_init_0.001.csv
+Métricas guardadas en metrics/RedesNeuronales/metrics_hidden_layer_sizes_(50,)_learning_rate_init_0.001.csv
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Mejores parámetros: {'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (50,), 'learning_rate_init': 0.01, 'max_iter': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.1480
+RMSE promedio (CV): 0.3848
+Desviación estándar (MSE): 0.0223
+Predicciones guardadas en predictions/RedesNeuronales/predicciones_hidden_layer_sizes_(50,)_learning_rate_init_0.01.csv
+Métricas guardadas en metrics/RedesNeuronales/metrics_hidden_layer_sizes_(50,)_learning_rate_init_0.01.csv
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Mejores parámetros: {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.001, 'max_iter': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.1480
+RMSE promedio (CV): 0.3847
+Desviación estándar (MSE): 0.0105
+Predicciones guardadas en predictions/RedesNeuronales/predicciones_hidden_layer_sizes_(100,)_learning_rate_init_0.001.csv
+Métricas guardadas en metrics/RedesNeuronales/metrics_hidden_layer_sizes_(100,)_learning_rate_init_0.001.csv
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Mejores parámetros: {'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.01, 'max_iter': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.1696
+RMSE promedio (CV): 0.4118
+Desviación estándar (MSE): 0.0221
+Predicciones guardadas en predictions/RedesNeuronales/predicciones_hidden_layer_sizes_(100,)_learning_rate_init_0.01.csv
+Métricas guardadas en metrics/RedesNeuronales/metrics_hidden_layer_sizes_(100,)_learning_rate_init_0.01.csv
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Mejores parámetros: {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 50), 'learning_rate_init': 0.001, 'max_iter': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.1472
+RMSE promedio (CV): 0.3836
+Desviación estándar (MSE): 0.0230
+Predicciones guardadas en predictions/RedesNeuronales/predicciones_hidden_layer_sizes_(100, 50)_learning_rate_init_0.001.csv
+Métricas guardadas en metrics/RedesNeuronales/metrics_hidden_layer_sizes_(100, 50)_learning_rate_init_0.001.csv
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Mejores parámetros: {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 50), 'learning_rate_init': 0.01, 'max_iter': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.1946
+RMSE promedio (CV): 0.4411
+Desviación estándar (MSE): 0.0746
+Predicciones guardadas en predictions/RedesNeuronales/predicciones_hidden_layer_sizes_(100, 50)_learning_rate_init_0.01.csv
+Métricas guardadas en metrics/RedesNeuronales/metrics_hidden_layer_sizes_(100, 50)_learning_rate_init_0.01.csv
+
+Mejor modelo:
+- Arquitectura oculta (hidden_layer_sizes): (50,)
+- Tasa de aprendizaje (learning_rate_init): 0.001
+- MSE promedio (CV): 0.1471
+- Desviación estándar del MSE (CV): 0.0216
+- MAE (Conjunto de prueba): 0.2550
+- R² (Conjunto de prueba): 0.3966
+- RMSE (Conjunto de prueba): 0.3835
+Métricas del mejor modelo guardadas en metrics/MejoresModelos/RedesNeuronales_mejor_modelo_metrics.csv
