@@ -1,0 +1,45 @@
+{"time":"2024-11-28T17:41:30.328691-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:41:30.328723-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174130-pk25gu42/logs/debug-core.log"}
+{"time":"2024-11-28T17:41:30.437157-03:00","level":"INFO","msg":"created new stream","id":"pk25gu42"}
+{"time":"2024-11-28T17:41:30.437185-03:00","level":"INFO","msg":"stream: started","id":"pk25gu42"}
+{"time":"2024-11-28T17:41:30.437198-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"pk25gu42"}
+{"time":"2024-11-28T17:41:30.437203-03:00","level":"INFO","msg":"handler: started","stream_id":"pk25gu42"}
+{"time":"2024-11-28T17:41:30.437208-03:00","level":"INFO","msg":"sender: started","stream_id":"pk25gu42"}
+{"time":"2024-11-28T17:41:30.800128-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:41:58.507617-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:00.42356-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:00.426363-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:06.922565-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:06.926575-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:11.418225-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:11.422563-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:17.696198-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:17.721063-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:17.761376-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:17.765599-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:17.77098-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:17.824464-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:17.830908-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:21.551176-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:21.556083-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:21.559583-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:21.565591-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:23.682539-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:23.687728-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:23.688848-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:23.693192-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:23.694156-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:23.699041-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:23.70015-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:23.705752-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:23.707642-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:42:23.711669-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:42:23.720953-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:42:23.721238-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:42:24.726757-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.558960875},{"desc":"uploading config.yaml","runtime_seconds":0.283727125,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.283702375,"progress":"7.7KB/7.7KB"}],"total_operations":3}}
+{"time":"2024-11-28T17:42:24.904729-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:42:26.236796-03:00","level":"INFO","msg":"stream: closing","id":"pk25gu42"}
+{"time":"2024-11-28T17:42:26.236927-03:00","level":"INFO","msg":"handler: closed","stream_id":"pk25gu42"}
+{"time":"2024-11-28T17:42:26.236956-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pk25gu42"}
+{"time":"2024-11-28T17:42:26.236996-03:00","level":"INFO","msg":"sender: closed","stream_id":"pk25gu42"}
+{"time":"2024-11-28T17:42:26.237187-03:00","level":"INFO","msg":"stream: closed","id":"pk25gu42"}

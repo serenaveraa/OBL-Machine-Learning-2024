@@ -1,0 +1,46 @@
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Mejores parámetros: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100, 'subsample': 0.8}
+
+Validación cruzada:
+MSE promedio (CV): 0.0747
+RMSE promedio (CV): 0.2733
+Desviación estándar (MSE): 0.0077
+Predicciones guardadas en predictions/GradientBoosting/predicciones_n_estimators_100_learning_rate_0.1.csv
+Métricas guardadas en metrics/GradientBoosting/metrics_n_estimators_100_learning_rate_0.1.csv
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Mejores parámetros: {'learning_rate': 0.2, 'max_depth': 5, 'n_estimators': 100, 'subsample': 1.0}
+
+Validación cruzada:
+MSE promedio (CV): 0.0773
+RMSE promedio (CV): 0.2780
+Desviación estándar (MSE): 0.0094
+Predicciones guardadas en predictions/GradientBoosting/predicciones_n_estimators_100_learning_rate_0.2.csv
+Métricas guardadas en metrics/GradientBoosting/metrics_n_estimators_100_learning_rate_0.2.csv
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Mejores parámetros: {'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200, 'subsample': 1.0}
+
+Validación cruzada:
+MSE promedio (CV): 0.0743
+RMSE promedio (CV): 0.2726
+Desviación estándar (MSE): 0.0082
+Predicciones guardadas en predictions/GradientBoosting/predicciones_n_estimators_200_learning_rate_0.1.csv
+Métricas guardadas en metrics/GradientBoosting/metrics_n_estimators_200_learning_rate_0.1.csv
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Mejores parámetros: {'learning_rate': 0.2, 'max_depth': 5, 'n_estimators': 200, 'subsample': 1.0}
+
+Validación cruzada:
+MSE promedio (CV): 0.0781
+RMSE promedio (CV): 0.2794
+Desviación estándar (MSE): 0.0093
+Predicciones guardadas en predictions/GradientBoosting/predicciones_n_estimators_200_learning_rate_0.2.csv
+Métricas guardadas en metrics/GradientBoosting/metrics_n_estimators_200_learning_rate_0.2.csv
+
+Mejor modelo:
+- Número de estimadores (n_estimators): 200
+- Tasa de aprendizaje (learning_rate): 0.1
+- MSE promedio (CV): 0.0743
+- Desviación estándar del MSE (CV): 0.0082
+- MAE (Conjunto de prueba): 0.1018
+- R² (Conjunto de prueba): 0.9032
+- RMSE (Conjunto de prueba): 0.2726
+Métricas del mejor modelo guardadas en metrics/MejoresModelos/GradientBoosting_mejor_modelo_metrics.csv

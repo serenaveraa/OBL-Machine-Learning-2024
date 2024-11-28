@@ -1,0 +1,39 @@
+{"time":"2024-11-28T17:42:29.537357-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:42:29.537419-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174226-aw424y8s/logs/debug-core.log"}
+{"time":"2024-11-28T17:42:29.647197-03:00","level":"INFO","msg":"created new stream","id":"aw424y8s"}
+{"time":"2024-11-28T17:42:29.647235-03:00","level":"INFO","msg":"stream: started","id":"aw424y8s"}
+{"time":"2024-11-28T17:42:29.647243-03:00","level":"INFO","msg":"handler: started","stream_id":"aw424y8s"}
+{"time":"2024-11-28T17:42:29.647257-03:00","level":"INFO","msg":"sender: started","stream_id":"aw424y8s"}
+{"time":"2024-11-28T17:42:29.647248-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"aw424y8s"}
+{"time":"2024-11-28T17:42:30.006931-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:43:13.502555-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:14.710854-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:14.733028-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:14.765941-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:14.770667-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:14.77975-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:14.834112-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:14.840461-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:18.624405-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:18.629973-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:18.63348-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:18.640303-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:20.735721-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:20.740786-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:20.742391-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:20.746535-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:20.747237-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:20.751799-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:20.753034-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:20.758494-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:20.760254-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:43:20.764162-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:43:20.772231-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:43:20.772522-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:43:21.777631-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.016998958}],"total_operations":1}}
+{"time":"2024-11-28T17:43:23.353413-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:43:24.974555-03:00","level":"INFO","msg":"stream: closing","id":"aw424y8s"}
+{"time":"2024-11-28T17:43:24.974571-03:00","level":"INFO","msg":"handler: closed","stream_id":"aw424y8s"}
+{"time":"2024-11-28T17:43:24.974579-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aw424y8s"}
+{"time":"2024-11-28T17:43:24.974587-03:00","level":"INFO","msg":"sender: closed","stream_id":"aw424y8s"}
+{"time":"2024-11-28T17:43:24.97471-03:00","level":"INFO","msg":"stream: closed","id":"aw424y8s"}

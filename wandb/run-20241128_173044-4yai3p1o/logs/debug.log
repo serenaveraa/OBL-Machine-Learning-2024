@@ -1,0 +1,572 @@
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_173044-4yai3p1o/logs/debug.log
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_173044-4yai3p1o/logs/debug-internal.log
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:30:44,803 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: yjja9op8
+2024-11-28 17:30:44,804 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/yjja9op8
+2024-11-28 17:30:44,804 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:30:44,804 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:30:44,805 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:30:44,805 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:30:44,805 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:30:44,805 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:30:45,587 WARNING MainThread:24257 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1256, in init
+    return wi.init()
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_init.py", line 654, in init
+    latest_run.finish()
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_run.py", line 451, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_run.py", line 393, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_run.py", line 2149, in finish
+    return self._finish(exit_code)
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_run.py", line 2179, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_run.py", line 2432, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_run.py", line 2681, in _on_finish
+    _ = exit_handle.wait(
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/lib/mailbox.py", line 279, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/Users/spark/Library/Python/3.9/lib/python/site-packages/wandb/sdk/lib/mailbox.py", line 122, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-11-28 17:41:30,321 INFO    MainThread:24257 [wandb_settings.py:_apply_login():1989] Applying login settings: {}
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:41:30,326 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174130-pk25gu42/logs/debug.log
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174130-pk25gu42/logs/debug-internal.log
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x137cd6cd0>
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:41:30,327 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:41:30,328 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:41:30,328 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:41:30,334 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:41:30,334 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:41:30,357 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:41:30,793 WARNING MsgRouterThr:24257 [router.py:message_loop():75] message_loop has been closed
+2024-11-28 17:41:30,798 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:41:30,883 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:41:30,884 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:41:30,884 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:41:30,884 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:41:30,884 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:41:58,507 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:41:58,507 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:00,423 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:00,425 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:00,426 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:06,921 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:06,926 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:06,926 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:11,417 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:11,421 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:11,421 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:17,695 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:17,720 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:17,720 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:17,759 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:17,764 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:17,765 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:17,770 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:17,824 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:17,824 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:17,830 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:21,550 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:21,551 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:21,555 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:21,559 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:21,559 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:21,565 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:23,682 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:23,682 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:23,687 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:23,688 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:23,688 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:23,692 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:23,693 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:23,694 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:23,698 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:23,699 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:23,700 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:23,705 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:23,707 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:23,707 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:42:23,711 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:42:23,718 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:42:23,719 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174223-uho5ndh7/logs/debug.log
+2024-11-28 17:42:23,719 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174223-uho5ndh7/logs/debug-internal.log
+2024-11-28 17:42:23,719 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:42:23,719 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regresión'}
+2024-11-28 17:42:23,719 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: pk25gu42
+2024-11-28 17:42:23,719 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/pk25gu42
+2024-11-28 17:42:23,720 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:42:23,720 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:42:23,720 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:42:23,720 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:42:23,720 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:42:23,720 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:42:26,218 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:42:26,219 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:42:26,232 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:42:26,238 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:42:26,238 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:42:26,240 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:42:26,240 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:42:26,249 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:42:26,250 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:42:26,269 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:42:26,725 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:42:26,812 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:42:26,812 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:42:26,812 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:42:26,812 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:42:26,813 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:42:26,830 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174226-aw424y8s/logs/debug.log
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174226-aw424y8s/logs/debug-internal.log
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x144b52460>
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:42:26,831 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: uho5ndh7
+2024-11-28 17:42:26,832 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/uho5ndh7
+2024-11-28 17:42:26,832 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:42:26,832 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:42:26,833 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:42:29,521 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:42:29,521 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:42:29,529 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:42:29,534 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:42:29,534 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:42:29,536 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:42:29,537 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:42:29,546 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:42:29,546 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:42:29,567 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:42:30,004 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:42:30,119 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:42:30,119 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:42:30,119 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:42:30,119 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:42:30,119 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:43:13,501 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:13,502 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:14,710 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:14,732 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:14,732 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:14,765 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:14,767 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:14,769 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:14,779 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:14,833 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:14,834 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:14,840 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:18,624 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:18,624 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:18,629 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:18,633 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:18,633 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:18,639 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:20,735 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:20,735 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:20,740 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:20,741 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:20,742 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:20,746 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:20,746 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:20,747 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:20,751 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:20,752 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:20,752 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:20,758 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:20,760 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:20,760 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:43:20,763 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174320-fdv14p9s/logs/debug.log
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174320-fdv14p9s/logs/debug-internal.log
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regresión'}
+2024-11-28 17:43:20,770 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: aw424y8s
+2024-11-28 17:43:20,771 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/aw424y8s
+2024-11-28 17:43:20,771 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:43:20,771 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:43:20,771 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:43:20,771 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:43:20,772 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:43:20,772 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:43:24,966 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:43:24,969 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:43:24,972 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:43:24,975 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:43:24,975 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:43:24,976 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:43:24,976 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:43:24,980 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:43:24,981 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:43:25,018 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:43:26,527 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:43:26,663 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:43:26,663 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:43:26,663 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:43:26,663 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:43:26,664 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174326-jyk5vqrx/logs/debug.log
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174326-jyk5vqrx/logs/debug-internal.log
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x145d368e0>
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:43:26,681 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: fdv14p9s
+2024-11-28 17:43:26,682 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/fdv14p9s
+2024-11-28 17:43:26,682 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:43:26,682 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:43:26,682 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:43:36,842 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:43:36,844 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:43:36,855 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:43:36,863 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:43:36,863 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:43:36,865 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:43:36,865 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:43:36,877 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:43:36,878 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:43:36,912 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:43:38,476 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:43:38,600 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:43:38,601 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:43:38,601 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:43:38,601 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:43:38,601 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:44:36,888 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/jyk5vqrx
+2024-11-28 17:44:36,890 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:44:36,890 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:44:36,890 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:44:36,890 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:44:36,891 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:44:36,891 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:44:43,723 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:44:43,724 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:44:43,731 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:44:43,789 INFO    MainThread:24257 [wandb_settings.py:_apply_login():1989] Applying login settings: {}
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174443-b4ff5aj0/logs/debug.log
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174443-b4ff5aj0/logs/debug-internal.log
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x144b45130>
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:44:43,795 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:44:43,796 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:44:43,796 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:44:43,797 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:44:43,806 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:44:43,807 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:44:43,874 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:44:44,311 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:44:44,467 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:44:44,467 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:44:44,468 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:44:44,468 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:44:44,468 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:45:03,970 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:03,970 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:16,210 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:16,213 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:16,214 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:23,646 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:23,649 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:23,649 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:23,660 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:23,662 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:23,662 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:25,596 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:25,601 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:25,605 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:25,617 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:25,618 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:25,618 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:25,717 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:25,721 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:25,721 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:25,738 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:25,740 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:25,740 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:47,412 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:47,416 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:47,416 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:52,185 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:52,190 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:52,193 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:52,211 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:52,212 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:52,213 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:53,243 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:53,244 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:53,244 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:53,256 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:53,258 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:53,259 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:45:56,177 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:45:56,180 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:45:56,180 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:46:10,428 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:46:10,442 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:46:10,443 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:46:10,443 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174610-ab2941mt/logs/debug.log
+2024-11-28 17:46:10,443 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174610-ab2941mt/logs/debug-internal.log
+2024-11-28 17:46:10,443 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:46:10,443 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:46:10,443 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: b4ff5aj0
+2024-11-28 17:46:10,444 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/b4ff5aj0
+2024-11-28 17:46:10,444 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:46:10,444 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:46:10,444 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:46:10,444 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:46:10,444 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:46:10,445 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:46:13,500 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:46:13,503 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:46:13,512 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:46:13,516 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:46:13,517 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:46:13,518 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:46:13,518 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:46:13,525 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:46:13,526 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:46:13,563 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:46:13,992 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:46:14,131 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:46:14,131 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:46:14,131 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:46:14,131 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:46:14,132 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:48:29,647 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:48:29,647 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174829-ja9fpbwv/logs/debug.log
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174829-ja9fpbwv/logs/debug-internal.log
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x136f57430>
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regresión'}
+2024-11-28 17:48:29,648 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: ab2941mt
+2024-11-28 17:48:29,649 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/ab2941mt
+2024-11-28 17:48:29,649 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:48:29,649 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:48:29,649 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:48:32,144 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:48:32,144 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:48:32,148 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:48:32,150 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:48:32,151 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:48:32,152 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:48:32,152 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:48:32,156 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:48:32,157 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:48:32,192 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:48:32,712 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:48:32,825 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:48:32,825 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:48:32,825 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:48:32,825 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:48:32,825 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:48:32,827 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:48:32,827 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:48:32,834 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:48:32,841 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174832-thf2pdqo/logs/debug.log
+2024-11-28 17:48:32,842 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174832-thf2pdqo/logs/debug-internal.log
+2024-11-28 17:48:32,842 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:48:32,842 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:48:32,842 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: ja9fpbwv
+2024-11-28 17:48:32,842 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/ja9fpbwv
+2024-11-28 17:48:32,843 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:48:32,843 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:48:32,843 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:48:32,843 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:48:32,843 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:48:32,843 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:48:35,601 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:48:35,601 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:48:35,604 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:48:35,606 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:48:35,606 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:48:35,607 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:48:35,607 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:48:35,612 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:48:35,614 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:48:35,650 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:48:36,035 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:48:36,150 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:48:36,150 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:48:36,151 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:48:36,151 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:48:36,151 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:49:33,945 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/thf2pdqo
+2024-11-28 17:49:33,947 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:49:33,947 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:49:33,947 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:49:38,294 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:49:38,295 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:49:38,307 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:49:38,382 INFO    MainThread:24257 [wandb_settings.py:_apply_login():1989] Applying login settings: {}
+2024-11-28 17:49:38,408 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:49:38,408 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:49:38,408 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:49:38,409 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:49:38,409 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:49:38,409 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:49:38,409 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:49:38,409 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:49:38,409 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174938-7b3prw20/logs/debug.log
+2024-11-28 17:49:38,410 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174938-7b3prw20/logs/debug-internal.log
+2024-11-28 17:49:38,410 INFO    MainThread:24257 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x145d51850>
+2024-11-28 17:49:38,410 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:49:38,410 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:49:38,410 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:49:38,410 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:49:38,413 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:49:38,415 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:49:38,425 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:49:38,426 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:49:38,466 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:49:38,882 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:49:39,017 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:49:39,017 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:49:39,017 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:49:39,017 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:49:39,017 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:50:47,668 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:50:47,668 INFO    MainThread:24257 [wandb_init.py:_pause_backend():444] pausing backend
+2024-11-28 17:52:28,797 INFO    MainThread:24257 [wandb_init.py:_resume_backend():449] resuming backend
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Configure stats pid to 24257
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/.config/wandb/settings
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/settings
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_init.py:_log_setup():533] Logging user logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_175228-6glnbohw/logs/debug.log
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_init.py:_log_setup():534] Logging internal logs to /Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_175228-6glnbohw/logs/debug-internal.log
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_init.py:init():619] calling init triggers
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'task': 'Regression'}
+2024-11-28 17:52:28,816 INFO    MainThread:24257 [wandb_init.py:init():644] re-initializing run, found existing run on stack: 7b3prw20
+2024-11-28 17:52:28,817 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/7b3prw20
+2024-11-28 17:52:28,818 INFO    MainThread:24257 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-28 17:52:28,818 INFO    MainThread:24257 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-28 17:52:28,818 INFO    MainThread:24257 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-28 17:52:28,818 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:52:28,818 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:52:28,818 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:52:31,331 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:52:31,332 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:52:31,343 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2024-11-28 17:52:31,348 INFO    MainThread:24257 [wandb_init.py:init():669] starting backend
+2024-11-28 17:52:31,348 INFO    MainThread:24257 [wandb_init.py:init():673] sending inform_init request
+2024-11-28 17:52:31,350 INFO    MainThread:24257 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-11-28 17:52:31,350 INFO    MainThread:24257 [wandb_init.py:init():686] backend started and connected
+2024-11-28 17:52:31,358 INFO    MainThread:24257 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-28 17:52:31,360 INFO    MainThread:24257 [wandb_init.py:init():781] updated telemetry
+2024-11-28 17:52:31,407 INFO    MainThread:24257 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-28 17:52:31,774 INFO    MainThread:24257 [wandb_init.py:init():867] starting run threads in backend
+2024-11-28 17:52:31,928 INFO    MainThread:24257 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-28 17:52:31,929 INFO    MainThread:24257 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-28 17:52:31,929 INFO    MainThread:24257 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-28 17:52:31,929 INFO    MainThread:24257 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-28 17:52:31,929 INFO    MainThread:24257 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-28 17:53:39,044 INFO    MainThread:24257 [wandb_run.py:_finish():2155] finishing run santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/6glnbohw
+2024-11-28 17:53:39,045 INFO    MainThread:24257 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-28 17:53:39,045 INFO    MainThread:24257 [wandb_run.py:_restore():2402] restore
+2024-11-28 17:53:39,045 INFO    MainThread:24257 [wandb_run.py:_restore():2408] restore done
+2024-11-28 17:53:43,331 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-28 17:53:43,332 INFO    MainThread:24257 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-28 17:53:43,346 INFO    MainThread:24257 [wandb_run.py:_footer_sync_info():3921] logging synced files

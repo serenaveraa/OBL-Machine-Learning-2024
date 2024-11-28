@@ -1,0 +1,17 @@
+{"time":"2024-11-28T17:42:26.240968-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:42:26.241024-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174223-uho5ndh7/logs/debug-core.log"}
+{"time":"2024-11-28T17:42:26.351884-03:00","level":"INFO","msg":"created new stream","id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:26.351936-03:00","level":"INFO","msg":"stream: started","id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:26.351945-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:26.351953-03:00","level":"INFO","msg":"handler: started","stream_id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:26.352007-03:00","level":"INFO","msg":"sender: started","stream_id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:26.727132-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:42:26.833164-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:42:26.833402-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:42:27.838996-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.359512584},{"desc":"uploading config.yaml","runtime_seconds":0.110852375,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.110827417}],"total_operations":3}}
+{"time":"2024-11-28T17:42:28.235298-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:42:29.533406-03:00","level":"INFO","msg":"stream: closing","id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:29.533497-03:00","level":"INFO","msg":"handler: closed","stream_id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:29.533528-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:29.533541-03:00","level":"INFO","msg":"sender: closed","stream_id":"uho5ndh7"}
+{"time":"2024-11-28T17:42:29.533723-03:00","level":"INFO","msg":"stream: closed","id":"uho5ndh7"}

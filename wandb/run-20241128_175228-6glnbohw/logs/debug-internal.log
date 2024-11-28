@@ -1,0 +1,17 @@
+{"time":"2024-11-28T17:52:31.350466-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:52:31.350529-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_175228-6glnbohw/logs/debug-core.log"}
+{"time":"2024-11-28T17:52:31.461135-03:00","level":"INFO","msg":"created new stream","id":"6glnbohw"}
+{"time":"2024-11-28T17:52:31.46127-03:00","level":"INFO","msg":"stream: started","id":"6glnbohw"}
+{"time":"2024-11-28T17:52:31.461294-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"6glnbohw"}
+{"time":"2024-11-28T17:52:31.461322-03:00","level":"INFO","msg":"sender: started","stream_id":"6glnbohw"}
+{"time":"2024-11-28T17:52:31.461338-03:00","level":"INFO","msg":"handler: started","stream_id":"6glnbohw"}
+{"time":"2024-11-28T17:52:31.776167-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:53:39.045841-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:53:39.046561-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:53:40.051618-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6glnbohw-MejorModelo","runtime_seconds":1.017398167,"subtasks":[{"desc":"Mejor Modelo.table.json","runtime_seconds":0.0945855,"progress":"894B/894B"}]},{"desc":"uploading config.yaml","runtime_seconds":0.299032667,"progress":"569B/569B"}],"total_operations":2}}
+{"time":"2024-11-28T17:53:42.005602-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:53:43.351132-03:00","level":"INFO","msg":"stream: closing","id":"6glnbohw"}
+{"time":"2024-11-28T17:53:43.351171-03:00","level":"INFO","msg":"handler: closed","stream_id":"6glnbohw"}
+{"time":"2024-11-28T17:53:43.351188-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6glnbohw"}
+{"time":"2024-11-28T17:53:43.351201-03:00","level":"INFO","msg":"sender: closed","stream_id":"6glnbohw"}
+{"time":"2024-11-28T17:53:43.351532-03:00","level":"INFO","msg":"stream: closed","id":"6glnbohw"}

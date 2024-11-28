@@ -1,0 +1,18 @@
+{"time":"2024-11-28T17:43:24.976451-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:43:24.976483-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174320-fdv14p9s/logs/debug-core.log"}
+{"time":"2024-11-28T17:43:25.081864-03:00","level":"INFO","msg":"created new stream","id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:25.081924-03:00","level":"INFO","msg":"stream: started","id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:25.081931-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:25.081953-03:00","level":"INFO","msg":"sender: started","stream_id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:25.081939-03:00","level":"INFO","msg":"handler: started","stream_id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:26.53097-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:43:26.683104-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:43:26.683321-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:43:27.687373-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":0.56356475},{"desc":"uploading requirements.txt","runtime_seconds":0.4308105}],"total_operations":2}}
+{"time":"2024-11-28T17:43:30.955056-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:43:31.842196-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/santisparkov-universidad-ort-uruguay/OBL-Machine-Learning-2024/fdv14p9s/file_stream\": read tcp 192.168.1.9:50392->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-11-28T17:43:36.862473-03:00","level":"INFO","msg":"stream: closing","id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:36.862506-03:00","level":"INFO","msg":"handler: closed","stream_id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:36.862521-03:00","level":"INFO","msg":"sender: closed","stream_id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:36.86252-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fdv14p9s"}
+{"time":"2024-11-28T17:43:36.862698-03:00","level":"INFO","msg":"stream: closed","id":"fdv14p9s"}

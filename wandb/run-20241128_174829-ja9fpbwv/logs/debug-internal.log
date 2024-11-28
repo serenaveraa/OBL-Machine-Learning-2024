@@ -1,0 +1,19 @@
+{"time":"2024-11-28T17:48:32.152374-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:48:32.152406-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174829-ja9fpbwv/logs/debug-core.log"}
+{"time":"2024-11-28T17:48:32.258746-03:00","level":"INFO","msg":"created new stream","id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:32.258801-03:00","level":"INFO","msg":"stream: started","id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:32.258804-03:00","level":"INFO","msg":"handler: started","stream_id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:32.258823-03:00","level":"INFO","msg":"sender: started","stream_id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:32.258832-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:32.71512-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:48:32.827339-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-28T17:48:32.834406-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-28T17:48:32.843483-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:48:32.843708-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:48:33.846109-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.2993295},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2430135,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.041149,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.041125792}],"total_operations":4}}
+{"time":"2024-11-28T17:48:34.270742-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:48:35.605939-03:00","level":"INFO","msg":"stream: closing","id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:35.605954-03:00","level":"INFO","msg":"handler: closed","stream_id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:35.605963-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:35.606042-03:00","level":"INFO","msg":"sender: closed","stream_id":"ja9fpbwv"}
+{"time":"2024-11-28T17:48:35.606055-03:00","level":"INFO","msg":"stream: closed","id":"ja9fpbwv"}

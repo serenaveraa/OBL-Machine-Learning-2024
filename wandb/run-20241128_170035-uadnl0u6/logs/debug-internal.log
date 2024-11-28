@@ -1,0 +1,17 @@
+{"time":"2024-11-28T17:00:35.633576-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:00:35.633771-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_170035-uadnl0u6/logs/debug-core.log"}
+{"time":"2024-11-28T17:00:35.779047-03:00","level":"INFO","msg":"created new stream","id":"uadnl0u6"}
+{"time":"2024-11-28T17:00:35.779247-03:00","level":"INFO","msg":"stream: started","id":"uadnl0u6"}
+{"time":"2024-11-28T17:00:35.779542-03:00","level":"INFO","msg":"handler: started","stream_id":"uadnl0u6"}
+{"time":"2024-11-28T17:00:35.779675-03:00","level":"INFO","msg":"sender: started","stream_id":"uadnl0u6"}
+{"time":"2024-11-28T17:00:35.779569-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"uadnl0u6"}
+{"time":"2024-11-28T17:00:36.613873-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:01:46.030557-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:01:46.031009-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:01:47.035827-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-uadnl0u6-MejorModelo","runtime_seconds":1.021118166},{"desc":"uploading wandb-summary.json","runtime_seconds":0.290401916,"progress":"912B/912B"}],"total_operations":2}}
+{"time":"2024-11-28T17:01:53.102734-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:01:55.791777-03:00","level":"INFO","msg":"stream: closing","id":"uadnl0u6"}
+{"time":"2024-11-28T17:01:55.791839-03:00","level":"INFO","msg":"handler: closed","stream_id":"uadnl0u6"}
+{"time":"2024-11-28T17:01:55.791851-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uadnl0u6"}
+{"time":"2024-11-28T17:01:55.791884-03:00","level":"INFO","msg":"sender: closed","stream_id":"uadnl0u6"}
+{"time":"2024-11-28T17:01:55.792518-03:00","level":"INFO","msg":"stream: closed","id":"uadnl0u6"}

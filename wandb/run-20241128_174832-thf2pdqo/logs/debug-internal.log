@@ -1,0 +1,17 @@
+{"time":"2024-11-28T17:48:35.607947-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:48:35.607973-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174832-thf2pdqo/logs/debug-core.log"}
+{"time":"2024-11-28T17:48:35.715513-03:00","level":"INFO","msg":"created new stream","id":"thf2pdqo"}
+{"time":"2024-11-28T17:48:35.71556-03:00","level":"INFO","msg":"stream: started","id":"thf2pdqo"}
+{"time":"2024-11-28T17:48:35.715583-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"thf2pdqo"}
+{"time":"2024-11-28T17:48:35.715604-03:00","level":"INFO","msg":"handler: started","stream_id":"thf2pdqo"}
+{"time":"2024-11-28T17:48:35.715598-03:00","level":"INFO","msg":"sender: started","stream_id":"thf2pdqo"}
+{"time":"2024-11-28T17:48:36.037527-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:49:33.947799-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:49:33.948507-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:49:34.953578-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-thf2pdqo-MejorModelo","runtime_seconds":1.018975417,"subtasks":[{"desc":"Mejor Modelo.table.json","runtime_seconds":0.109913292,"progress":"895B/895B"}]},{"desc":"uploading config.yaml","runtime_seconds":0.202444209,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.202422875,"progress":"4.4KB/4.4KB"}],"total_operations":3}}
+{"time":"2024-11-28T17:49:36.812691-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:49:38.312583-03:00","level":"INFO","msg":"stream: closing","id":"thf2pdqo"}
+{"time":"2024-11-28T17:49:38.312633-03:00","level":"INFO","msg":"handler: closed","stream_id":"thf2pdqo"}
+{"time":"2024-11-28T17:49:38.312652-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"thf2pdqo"}
+{"time":"2024-11-28T17:49:38.312668-03:00","level":"INFO","msg":"sender: closed","stream_id":"thf2pdqo"}
+{"time":"2024-11-28T17:49:38.313118-03:00","level":"INFO","msg":"stream: closed","id":"thf2pdqo"}

@@ -1,0 +1,38 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "3.9.6",
+  "startedAt":  "2024-11-28T20:42:29.537407Z",
+  "program":  "/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/Obligatorio2024.ipynb",
+  "git":  {
+    "remote":  "https://github.com/serenaveraa/OBL-Machine-Learning-2024.git",
+    "commit":  "c3951c7bd3fa14772865fa4b3c19887fea3a4131"
+  },
+  "email":  "santisparkov9@gmail.com",
+  "root":  "/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024",
+  "host":  "192.168.1.9",
+  "username":  "spark",
+  "executable":  "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "codePathLocal":  "Obligatorio2024.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "235583930368"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M3",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16
+  }
+}

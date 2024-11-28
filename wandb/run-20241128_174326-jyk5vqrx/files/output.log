@@ -1,0 +1,91 @@
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 50}
+
+Validación cruzada:
+MSE promedio (CV): 0.0804
+RMSE promedio (CV): 0.2835
+Desviación estándar (MSE): 0.0066
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_50_max_depth_10.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_50_max_depth_10.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 50}
+
+Validación cruzada:
+MSE promedio (CV): 0.0753
+RMSE promedio (CV): 0.2744
+Desviación estándar (MSE): 0.0068
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_50_max_depth_20.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_50_max_depth_20.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 50}
+
+Validación cruzada:
+MSE promedio (CV): 0.0749
+RMSE promedio (CV): 0.2736
+Desviación estándar (MSE): 0.0064
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_50_max_depth_None.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_50_max_depth_None.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}
+
+Validación cruzada:
+MSE promedio (CV): 0.0793
+RMSE promedio (CV): 0.2815
+Desviación estándar (MSE): 0.0070
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_100_max_depth_10.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_100_max_depth_10.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}
+
+Validación cruzada:
+MSE promedio (CV): 0.0740
+RMSE promedio (CV): 0.2721
+Desviación estándar (MSE): 0.0067
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_100_max_depth_20.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_100_max_depth_20.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 100}
+
+Validación cruzada:
+MSE promedio (CV): 0.0748
+RMSE promedio (CV): 0.2735
+Desviación estándar (MSE): 0.0072
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_100_max_depth_None.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_100_max_depth_None.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.0796
+RMSE promedio (CV): 0.2821
+Desviación estándar (MSE): 0.0072
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_200_max_depth_10.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_200_max_depth_10.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.0738
+RMSE promedio (CV): 0.2717
+Desviación estándar (MSE): 0.0067
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_200_max_depth_20.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_200_max_depth_20.csv
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Mejores parámetros: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 200}
+
+Validación cruzada:
+MSE promedio (CV): 0.0743
+RMSE promedio (CV): 0.2726
+Desviación estándar (MSE): 0.0071
+Predicciones guardadas en predictions/RandomForest/predicciones_n_estimators_200_max_depth_None.csv
+Métricas guardadas en metrics/RandomForest/metrics_n_estimators_200_max_depth_None.csv
+
+Mejor modelo:
+- Número de árboles (n_estimators): 200
+- Profundidad máxima (max_depth): 20
+- MSE promedio (CV): 0.0738
+- Desviación estándar del MSE (CV): 0.0067
+- MAE (Conjunto de prueba): 0.0621
+- R² (Conjunto de prueba): 0.9549
+- RMSE (Conjunto de prueba): 0.2717
+Métricas del mejor modelo guardadas en metrics/MejoresModelos/RandomForest_mejor_modelo_metrics.csv

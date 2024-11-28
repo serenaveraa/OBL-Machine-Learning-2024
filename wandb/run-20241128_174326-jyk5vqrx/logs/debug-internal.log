@@ -1,0 +1,17 @@
+{"time":"2024-11-28T17:43:36.866077-03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-28T17:43:36.866134-03:00","level":"INFO","msg":"created symlink","path":"/Users/spark/Desktop/ORT/Machine Learning/OBL-Machine-Learning-2024/wandb/run-20241128_174326-jyk5vqrx/logs/debug-core.log"}
+{"time":"2024-11-28T17:43:36.97604-03:00","level":"INFO","msg":"created new stream","id":"jyk5vqrx"}
+{"time":"2024-11-28T17:43:36.976084-03:00","level":"INFO","msg":"stream: started","id":"jyk5vqrx"}
+{"time":"2024-11-28T17:43:36.976093-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"jyk5vqrx"}
+{"time":"2024-11-28T17:43:36.976106-03:00","level":"INFO","msg":"sender: started","stream_id":"jyk5vqrx"}
+{"time":"2024-11-28T17:43:36.976125-03:00","level":"INFO","msg":"handler: started","stream_id":"jyk5vqrx"}
+{"time":"2024-11-28T17:43:38.481203-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:44:36.891464-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:44:36.892632-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:44:37.897118-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jyk5vqrx-MejorModelo","runtime_seconds":1.017892084,"subtasks":[{"desc":"Mejor Modelo.table.json","runtime_seconds":0.095970417,"progress":"895B/895B"}]},{"desc":"uploading config.yaml","runtime_seconds":0.282381625,"progress":"569B/569B"},{"desc":"uploading output.log","runtime_seconds":0.282365708,"progress":"4.4KB/4.4KB"}],"total_operations":3}}
+{"time":"2024-11-28T17:44:42.460571-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:44:43.735563-03:00","level":"INFO","msg":"stream: closing","id":"jyk5vqrx"}
+{"time":"2024-11-28T17:44:43.7356-03:00","level":"INFO","msg":"handler: closed","stream_id":"jyk5vqrx"}
+{"time":"2024-11-28T17:44:43.735625-03:00","level":"INFO","msg":"sender: closed","stream_id":"jyk5vqrx"}
+{"time":"2024-11-28T17:44:43.735615-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jyk5vqrx"}
+{"time":"2024-11-28T17:44:43.735798-03:00","level":"INFO","msg":"stream: closed","id":"jyk5vqrx"}
