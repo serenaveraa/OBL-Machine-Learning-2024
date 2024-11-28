@@ -2,3 +2,7 @@ Métrica,Valor
 MSE promedio (CV),0.1972
 RMSE promedio (CV),0.4440
 Desviación estándar (MSE),0.0480
+MAE promedio (CV),0.2976
+Mediana del Error Absoluto (MedianAE),0.2352
+R² (CV),0.2859
+Max Error (CV),4.0308
